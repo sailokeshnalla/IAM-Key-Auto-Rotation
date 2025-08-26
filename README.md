@@ -26,6 +26,7 @@ receiver_email = 'receiver@example.com'
 Run the script:
 ---------------
 pip install -r requirements.txt
+
 python rotate_keys.py
 
 
