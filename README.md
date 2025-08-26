@@ -15,24 +15,23 @@ Usage
 -----
 Open rotate_keys.py and update the following values:
 
-aws_access_key = 'YOUR_ACCESS_KEY'
-aws_secret_key = 'YOUR_SECRET_KEY'
-aws_region = 'YOUR_AWS_REGION'  # e.g. us-west-1
+- aws_access_key = 'YOUR_ACCESS_KEY'
+- aws_secret_key = 'YOUR_SECRET_KEY'
+- aws_region = 'YOUR_AWS_REGION'  # e.g. us-west-1
 
-sender_email = 'sender@example.com'
-receiver_email = 'receiver@example.com'
+- sender_email = 'sender@example.com'
+- receiver_email = 'receiver@example.com'
 
 
 Run the script:
 ---------------
-pip install -r requirements.txt
-
-python rotate_keys.py
+- pip install -r requirements.txt
+- python rotate_keys.py
 
 
 The script will:
 ----------------
-Find old IAM keys (older than the set threshold).
-Disable & delete them.
-Create new keys.
-Send an email notification via SES.
+- Find old IAM keys (older than the set threshold).
+- Disable & delete them.
+- Create new keys.
+- Send an email notification via SES.
